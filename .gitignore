@@ -1,1 +1,4 @@
-.idea
+bool_true = True
+bool_false = False
+print(type(bool_true))
+
