@@ -5,4 +5,3 @@ for number in numbers:
     if number % my_number == 0:
         even_numbers.append(number)
 print(f' {even_numbers} list elements divide by {my_number}')
-
