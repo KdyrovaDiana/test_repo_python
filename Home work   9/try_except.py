@@ -5,7 +5,7 @@ key2 = key.lower()
 if key2 in course:
     try:
         user = course.get(key2)
-        print(user)
+        print(f'Your key: {user}')
     except KeyError:
         user = course.get(key2)
 else:
