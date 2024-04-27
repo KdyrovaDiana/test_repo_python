@@ -18,15 +18,6 @@ def calc(number1, number2, operator):
 
 def operations():
     operator = input("Enter operator(Enter '+', '-', '*', '/'): ")
-    if operator == '+':
-        print("You operation '+' ")
-    elif operator == '-':
-        print("You operation '-' ")
-    elif operator == '*':
-        print("You operation '*' ")
-    elif operator == '/':
-        print("You operation '/' ")
-
     correct_operations = ['+', '-', '*', '/']
     while operator not in correct_operations:
         print("Do not try to fool me, enter operator")
