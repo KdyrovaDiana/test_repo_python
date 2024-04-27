@@ -11,6 +11,3 @@ def is_prime(number):
 
 
 print(is_prime(int(input(" Enter number from 2 to 1000 inclusive: "))))
-
-
-
