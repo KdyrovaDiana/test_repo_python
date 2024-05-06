@@ -25,4 +25,4 @@ if __name__ == '__main__':
     print(deputy_director_for_project.move())
     print(deputy_director_for_economics.move())
     print(deputy_director_for_marketing.move())
-    print(project_engineer.move())
+    print(project_engineer.move)
