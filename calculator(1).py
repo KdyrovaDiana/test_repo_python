@@ -4,7 +4,7 @@ from tkinter import ttk
 
 root = Tk()
 root.title("Калькулятор")
-
+#///
 #логика калькулятора
 def calc(key):
     global memory
